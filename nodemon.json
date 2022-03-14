@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "./index.js",
+    "src/**/*.js"
+  ],
+  "exec": "babel-node index.js",
+  "env": {
+    "NODE_ENV": "development",
+    "BABEL_DISABLE_CACHE": 1
+  }
+}
